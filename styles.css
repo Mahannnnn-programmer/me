@@ -17,3 +17,7 @@ a {color:white; text-decoration: none;}
 #upper {width:1000px; height:400px; background-color: rgb(0, 104, 0); margin-left: auto; margin-right: auto; margin-top: 100px; border: 5px solid rgb(0, 104, 0); border-radius: 20px; display: flex; justify-content: space-between;}
 #quote {width:500px; height: 200px; margin-left: auto; margin-right: auto; border: 5px solid rgb(0, 104, 0); border-radius: 10px; margin-top: 50px; display: flex; flex-direction: column;}
 #footer {height:150px; background-color: darkgreen; margin-top: 50px; clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%); display: flex;}
+::-webkit-scrollbar {width: 12px;}
+::-webkit-scrollbar-thumb {background-color: rgb(26, 112, 26);}
+::-webkit-scrollbar-track {background-color: #eee;}
+::-webkit-scrollbar-thumb:hover {background-color: rgb(60, 99, 60);}
